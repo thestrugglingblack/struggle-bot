@@ -1,0 +1,4 @@
+Hidden Figures was an inspirational movie that highlighted three amazing African American women mathematicians.
+Katherine Johnson, Dorothy Vaughan and Mary Jackson all were essential contributors to the National Aeronatucs and Space Administration Space Race.
+To learn about these three phenomenal women or ask questions about them use the command !katherinejohnson !maryjackson and !dorothyvaughan. Example
+!katherinejohnson How many papers did she write?
