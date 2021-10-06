@@ -1,4 +1,5 @@
-Hidden Figures was an inspirational movie that highlighted three amazing African American women mathematicians.
-Katherine Johnson, Dorothy Vaughan and Mary Jackson all were essential contributors to the National Aeronatucs and Space Administration Space Race.
-To learn about these three phenomenal women or ask questions about them use the command !katherinejohnson !maryjackson and !dorothyvaughan. Example
-!katherinejohnson How many papers did she write?
+Aritificai Intelligence and Machine Learning technology has evolved exponentially over the past decade.
+It has presented us with amazing contributions to the human race but there has been some concerns on how harmful it can be to vulnerable people.
+Joy Buolamwini, Rediet Abebe and Timnit Gebru are the forefront of scientists and engineers in challenging the industry to do better in providing a concise framework of ethics in AI/ML.
+To learn about these three gamechangers in the indsutry or ask questions about them use the command !joybuolamwini !redietabebe !timnitgebru Example
+!joybuolamwini What is the name of her organization that raise awareness to the impacts of AI?

@@ -48,11 +48,11 @@ client.on('message', (channel, tags, message, self) => {
 
     if(self) return;
 
-    if(message.includes('!katherinejohnson')){
-        const cleanQuestion = message.replace('!katherinejohnson', '');
+    if(message.includes('!redietabebe')){
+        const cleanQuestion = message.replace('!redietabebe', '');
         const response = async () => {
             try {
-                const answer = await qnaModel('katherine-johnson', cleanQuestion);
+                const answer = await qnaModel('rediet-abebe', cleanQuestion);
                 if(answer.text === undefined || !answer.text){
                     return 'I am sorry we could not find the answer'
                 }
@@ -67,11 +67,12 @@ client.on('message', (channel, tags, message, self) => {
 
     }
 
-    if(message.includes('!maryjackson')){
-        const cleanQuestion = message.replace('!maryjackson', '');
+    if(message.includes('!timnitgebru')){
+        const cleanQuestion = message.replace('!timnitgebru', '');
         const response = async () => {
             try {
-                const answer = await qnaModel('mary-jackson', cleanQuestion);
+                const answer = await qnaModel('timnit-gebru', cleanQuestion);
+                console.log('What is the text?', answer)
                 if(answer.text === undefined || !answer.text){
                     return 'I am sorry we could not find the answer'
                 }
@@ -85,12 +86,12 @@ client.on('message', (channel, tags, message, self) => {
         });
     }
 
-    if(message.includes('!dorothyvaughan')){
-        const cleanQuestion = message.replace('!dorothyvaughan', '');
+    if(message.includes('!joybuolamwini')){
+        const cleanQuestion = message.replace('!joybuolamwini', '');
 
         const response = async () => {
             try {
-                const answer = await qnaModel('dorothy-vaughan', cleanQuestion);
+                const answer = await qnaModel('joy-buolamwini', cleanQuestion);
                 if(answer.text === undefined || !answer.text){
                     return 'I am sorry we could not find the answer'
                 }

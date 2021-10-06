@@ -9,9 +9,9 @@ const path = require('path');
 const memCache =  new cache.Cache();
 (async function(){
     [
-        path.join(__dirname, '..','data', 'katherine-johnson.txt'),
-        path.join(__dirname, '..','data', 'mary-jackson.txt'),
-        path.join(__dirname, '..','data', 'dorothy-vaughan.txt')
+        path.join(__dirname, '..','data', 'joy-buolamwini.txt'),
+        path.join(__dirname, '..','data', 'rediet-abebe.txt'),
+        path.join(__dirname, '..','data', 'timnit-gebru.txt')
     ].map(function(file){
         fs.readFile(file,'utf8', function (err, data){
             if(err){
@@ -33,7 +33,8 @@ async function qnaModel (name, question){
         let answers = await model.findAnswers(question, text);
 
         if(answers.length < 1){
-            return console.log('Can you rephrase the question?')
+            console.log('Can you rephrase the question?')
+            return "Can you rephrase the question?";
         }
         return answers[0];
     } catch(e){
